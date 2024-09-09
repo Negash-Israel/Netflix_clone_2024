@@ -1,0 +1,64 @@
+.footer_outer_container {
+  background-color: #141414; /* Dark background for footer */
+  color: #ffffff; /* White text color */
+  padding: 20px 0; /* Vertical padding */
+}
+
+.foote_inner_conatiner {
+  max-width: 1200px; /* Limit max width */
+  margin: 0 auto; /* Center the footer */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.footer_icons {
+  margin-bottom: 20px; /* Space below icons */
+}
+
+.footer_icons .MuiSvgIcon-root {
+  margin: 0 10px; /* Space between icons */
+  font-size: 24px; /* Icon size */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.footer_data {
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Distribute space between columns */
+  width: 100%; /* Full width */
+  margin-bottom: 20px; /* Space below data section */
+}
+
+.footer_data div {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start */
+}
+
+.footer_data ul {
+  list-style: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.footer_data li {
+  margin-bottom: 10px; /* Space between list items */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.footer_data li:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.service_Code {
+  margin: 20px 0; /* Space above and below service code */
+  font-weight: bold; /* Make the text bold */
+}
+
+.copy_write {
+  font-size: 14px; /* Smaller font size for copyright */
+  text-align: center; /* Center text */
+}
+.footer_icons {
+  margin-left: 0px;
+}
