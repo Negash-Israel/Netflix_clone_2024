@@ -12,9 +12,9 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        console.log(fetchUrl);
+        // console.log(fetchUrl);
         const request = await axios.get(fetchUrl);
-        console.log(request);
+        // console.log(request);
         setMovies(request.data.results);
       } catch (error) {
         console.log("error", error);
@@ -72,8 +72,3 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
 };
 
 export default Row;
-
-{
-  /* <style ={{padding: '40px'}}/>
- {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />} */
-}
