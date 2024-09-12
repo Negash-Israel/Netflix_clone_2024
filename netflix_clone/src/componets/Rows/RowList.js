@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "../Rows/Row/Row.js";
 import requests from "../../../src/utils/requests.js";
-cmd;
+
 const RowList = () => {
   return (
     <>
